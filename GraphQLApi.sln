@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLApi", "GraphQLApi\GraphQLApi.csproj", "{791C8A31-1535-4542-98C7-FAD420647058}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLApi.Database", "GraphQLApi.Database\GraphQLApi.Database.csproj", "{8D46358D-8226-44FE-8288-071DABEAF9BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLApi.Test", "GraphQL.Test\GraphQLApi.Test.csproj", "{31808579-E330-4249-89E0-2CCF12C215F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLApi.DataAccess", "GraphQLApi.DataAccess\GraphQLApi.DataAccess.csproj", "{F35E9D41-220B-4648-8B89-C592781BA926}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{791C8A31-1535-4542-98C7-FAD420647058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791C8A31-1535-4542-98C7-FAD420647058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791C8A31-1535-4542-98C7-FAD420647058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791C8A31-1535-4542-98C7-FAD420647058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D46358D-8226-44FE-8288-071DABEAF9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D46358D-8226-44FE-8288-071DABEAF9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D46358D-8226-44FE-8288-071DABEAF9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D46358D-8226-44FE-8288-071DABEAF9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31808579-E330-4249-89E0-2CCF12C215F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31808579-E330-4249-89E0-2CCF12C215F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31808579-E330-4249-89E0-2CCF12C215F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31808579-E330-4249-89E0-2CCF12C215F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35E9D41-220B-4648-8B89-C592781BA926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35E9D41-220B-4648-8B89-C592781BA926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35E9D41-220B-4648-8B89-C592781BA926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35E9D41-220B-4648-8B89-C592781BA926}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {683B165B-4B53-4A51-83AE-093D3D3D03BB}
+	EndGlobalSection
+EndGlobal
