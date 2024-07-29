@@ -1,4 +1,4 @@
-﻿namespace GraphQLApi.Mutations.Clients;
+﻿namespace GraphQLApi.GraphQLObjects.Clients;
 
 public interface IJwtHandling
 {

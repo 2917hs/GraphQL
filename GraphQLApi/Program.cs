@@ -39,7 +39,7 @@ app.UseAuthentication();
 app.UseRouting();
 app.UseAuthorization();
 app.MapGraphQL();
-app.UseGraphQLPlayground("/playground");
+app.UseGraphQLGraphiQL("/playground");
 
 try
 {

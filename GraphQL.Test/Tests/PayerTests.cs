@@ -14,8 +14,9 @@ namespace GraphQLApi.Test.Tests;
 public class PayerTests
 {
     private readonly Mock<IOptions<OptionsConfiguration>> _mockOptions;
-    private readonly ILogger<PayerQuery> _logger;
+    private readonly ILogger<Query> _logger;
     private readonly InMemoryDbContext _inMemoryDbContext;
+    private readonly MongoDbContext _mongoDbContext;
 
     public PayerTests()
     {
@@ -26,7 +27,7 @@ public class PayerTests
             .BuildServiceProvider();
 
         var loggerFactory = serviceProvider.GetService<ILoggerFactory>();
-        _logger = loggerFactory.CreateLogger<PayerQuery>();
+        _logger = loggerFactory.CreateLogger<Query>();
 
         // Initialize InMemoryDbContext
         _inMemoryDbContext = GetInMemoryDataContext("TestDatabase");
@@ -64,10 +65,11 @@ public class PayerTests
         };
         _mockOptions.Setup(o => o.Value).Returns(options);
 
-        var graphQlQuery = new PayerQuery(
+        var graphQlQuery = new Query(
             new HttpClient(), 
             _mockOptions.Object,
             _logger,
+            _mongoDbContext,
             _inMemoryDbContext
         );
 
@@ -96,10 +98,11 @@ public class PayerTests
         };
         _mockOptions.Setup(o => o.Value).Returns(options);
 
-        var graphQlQuery = new PayerQuery(
+        var graphQlQuery = new Query(
             new HttpClient(), 
             _mockOptions.Object,
             _logger,
+            _mongoDbContext,
             _inMemoryDbContext
         );
 

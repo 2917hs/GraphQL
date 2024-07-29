@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "w32wsOES8nGmxqo3E5cWiBWyuAy2+4jmm9ombbXls58mdAwmAMkAl+1wsHea+Q7hHDNFgvOv75d1C2uZcjQohA==",
+  "dgSpecHash": "LjIMoR6kdm0FGZlxJTVN1XlGVi7MgXL6K1+rBAasZmkpWtTtA19AoMoT/kv373vL0yEPcXCx2QxXtUg16Ja1gA==",
   "success": true,
   "projectFilePath": "/Users/hasansiddiqui/Program/GraphQL/GraphQLApi/GraphQLApi.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/hasansiddiqui/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "/Users/hasansiddiqui/.nuget/packages/bananacakepop.middleware/16.0.1/bananacakepop.middleware.16.0.1.nupkg.sha512",
     "/Users/hasansiddiqui/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
+    "/Users/hasansiddiqui/.nuget/packages/graphql.server.ui.graphiql/7.7.1/graphql.server.ui.graphiql.7.7.1.nupkg.sha512",
     "/Users/hasansiddiqui/.nuget/packages/graphql.server.ui.playground/7.7.1/graphql.server.ui.playground.7.7.1.nupkg.sha512",
     "/Users/hasansiddiqui/.nuget/packages/greendonut/13.9.7/greendonut.13.9.7.nupkg.sha512",
     "/Users/hasansiddiqui/.nuget/packages/hotchocolate/13.9.7/hotchocolate.13.9.7.nupkg.sha512",

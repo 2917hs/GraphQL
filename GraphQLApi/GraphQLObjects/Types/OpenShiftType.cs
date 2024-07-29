@@ -4,9 +4,9 @@ using GraphQLApi.GraphQLObjects.Services;
 namespace GraphQLApi.GraphQLObjects.Types;
 
 [GraphQlType]
-public class OpenShiftType : ObjectType<OpenShiftQuery>
+public class OpenShiftType : ObjectType<Query>
 {
-    protected override void Configure(IObjectTypeDescriptor<OpenShiftQuery> descriptor)
+    protected override void Configure(IObjectTypeDescriptor<Query> descriptor)
     {
        descriptor.Field(q => q.GetOpenShiftAsync(default, default, default))
             .Name("getOpenShiftAsync")

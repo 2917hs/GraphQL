@@ -461,3 +461,5 @@ C:/UMA/CareHub_POC/GraphQL/GraphQLApi/bin/Debug/net8.0/GraphQLApi.DataAccess.pdb
 /Users/hasansiddiqui/Program/GraphQL_poc/GraphQLApi/obj/Debug/net8.0/GraphQLApi.pdb
 /Users/hasansiddiqui/Program/GraphQL_poc/GraphQLApi/obj/Debug/net8.0/GraphQLApi.genruntimeconfig.cache
 /Users/hasansiddiqui/Program/GraphQL_poc/GraphQLApi/obj/Debug/net8.0/ref/GraphQLApi.dll
+/Users/hasansiddiqui/Program/GraphQL/GraphQLApi/obj/Debug/net8.0/GraphQLApi.sourcelink.json
+/Users/hasansiddiqui/Program/GraphQL/GraphQLApi/bin/Debug/net8.0/GraphQL.Server.Ui.GraphiQL.dll

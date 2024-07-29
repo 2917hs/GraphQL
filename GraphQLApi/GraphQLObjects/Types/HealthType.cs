@@ -4,9 +4,9 @@ using GraphQLApi.GraphQLObjects.Services;
 namespace GraphQLApi.GraphQLObjects.Types;
 
 [GraphQlType]
-public class HealthType : ObjectType<HealthQuery>
+public class HealthType : ObjectType<Query>
 {
-    protected override void Configure(IObjectTypeDescriptor<HealthQuery> descriptor)
+    protected override void Configure(IObjectTypeDescriptor<Query> descriptor)
     {
         descriptor.Field(q => q.GetHealthAsync(default, default))
             .Name("getHealthAsync")

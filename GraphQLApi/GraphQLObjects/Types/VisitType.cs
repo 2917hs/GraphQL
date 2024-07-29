@@ -4,9 +4,9 @@ using GraphQLApi.GraphQLObjects.Services;
 namespace GraphQLApi.GraphQLObjects.Types;
 
 [GraphQlType]
-public sealed class VisitType : ObjectType<VisitQuery>
+public sealed class VisitType : ObjectType<Query>
 {
-    protected override void Configure(IObjectTypeDescriptor<VisitQuery> descriptor)
+    protected override void Configure(IObjectTypeDescriptor<Query> descriptor)
     {
        descriptor.Field(q => q.GetAllVisits())
             .Name("getAllVisits")

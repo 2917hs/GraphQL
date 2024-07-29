@@ -169,6 +169,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "GraphQL.Server.Ui.GraphiQL": {
+              "target": "Package",
+              "version": "[7.7.1, )"
+            },
             "GraphQL.Server.Ui.Playground": {
               "target": "Package",
               "version": "[7.7.1, )"
@@ -188,6 +192,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",

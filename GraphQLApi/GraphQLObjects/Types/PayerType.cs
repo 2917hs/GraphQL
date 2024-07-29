@@ -3,7 +3,6 @@ using GraphQLApi.GraphQLObjects.Services;
 
 namespace GraphQLApi.GraphQLObjects.Types;
 
-[GraphQlType]
 public class PayerType : ObjectType<PayerQuery>
 {
     protected override void Configure(IObjectTypeDescriptor<PayerQuery> descriptor)

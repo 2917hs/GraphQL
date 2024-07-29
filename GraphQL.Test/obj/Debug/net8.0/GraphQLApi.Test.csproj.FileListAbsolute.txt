@@ -531,3 +531,5 @@ C:/UMA/CareHub_POC/GraphQL/GraphQL.Test/bin/Debug/net8.0/GraphQLApi.DataAccess.p
 /Users/hasansiddiqui/Program/GraphQL_poc/GraphQL.Test/obj/Debug/net8.0/GraphQLApi.Test.pdb
 /Users/hasansiddiqui/Program/GraphQL_poc/GraphQL.Test/obj/Debug/net8.0/GraphQLApi.Test.genruntimeconfig.cache
 /Users/hasansiddiqui/Program/GraphQL_poc/GraphQL.Test/obj/Debug/net8.0/ref/GraphQLApi.Test.dll
+/Users/hasansiddiqui/Program/GraphQL/GraphQL.Test/obj/Debug/net8.0/GraphQLApi.Test.sourcelink.json
+/Users/hasansiddiqui/Program/GraphQL/GraphQL.Test/bin/Debug/net8.0/GraphQL.Server.Ui.GraphiQL.dll

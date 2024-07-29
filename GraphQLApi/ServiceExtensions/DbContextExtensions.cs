@@ -1,4 +1,5 @@
 ﻿using GraphQLApi.DataAccess.Repositories;
+using GraphQLApi.DataAccess.Services;
 using GraphQLApi.Database.Data;
 using GraphQLApi.GraphQLObjects.Clients;
 using GraphQLApi.GraphQLObjects.Queries;
@@ -24,8 +25,8 @@ public static class DbContextExtensions
             return new MongoDbContext(mongoClient, databaseName);
         });
 
-        //services.AddScoped<IVisitRepository, VisitRepository>();
-        // services.AddScoped<IVisit, VisitQuery>();
+        // services.AddScoped<IVisitRepository, VisitRepository>();
+        // services.AddScoped<IVisit, Query>();
         // services.AddScoped<VisitService>();
 
         return services;

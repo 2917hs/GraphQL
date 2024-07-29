@@ -49,3 +49,4 @@ C:/UMA/CareHub_POC/GraphQL/GraphQLApi.Database/obj/Debug/net8.0/ref/GraphQLApi.D
 /Users/hasansiddiqui/Program/GraphQL_poc/GraphQLApi.Database/obj/Debug/net8.0/refint/GraphQLApi.Database.dll
 /Users/hasansiddiqui/Program/GraphQL_poc/GraphQLApi.Database/obj/Debug/net8.0/GraphQLApi.Database.pdb
 /Users/hasansiddiqui/Program/GraphQL_poc/GraphQLApi.Database/obj/Debug/net8.0/ref/GraphQLApi.Database.dll
+/Users/hasansiddiqui/Program/GraphQL/GraphQLApi.Database/obj/Debug/net8.0/GraphQLApi.Database.sourcelink.json

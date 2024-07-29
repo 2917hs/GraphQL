@@ -44,3 +44,4 @@ C:/UMA/CareHub_POC/GraphQL/GraphQLApi.DataAccess/obj/Debug/net8.0/ref/GraphQLApi
 /Users/hasansiddiqui/Program/GraphQL_poc/GraphQLApi.DataAccess/obj/Debug/net8.0/refint/GraphQLApi.DataAccess.dll
 /Users/hasansiddiqui/Program/GraphQL_poc/GraphQLApi.DataAccess/obj/Debug/net8.0/GraphQLApi.DataAccess.pdb
 /Users/hasansiddiqui/Program/GraphQL_poc/GraphQLApi.DataAccess/obj/Debug/net8.0/ref/GraphQLApi.DataAccess.dll
+/Users/hasansiddiqui/Program/GraphQL/GraphQLApi.DataAccess/obj/Debug/net8.0/GraphQLApi.DataAccess.sourcelink.json

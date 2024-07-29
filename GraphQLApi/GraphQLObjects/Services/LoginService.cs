@@ -1,8 +1,8 @@
-﻿using GraphQLApi.Mutations.Clients;
-using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using GraphQLApi.GraphQLObjects.Clients;
 
 namespace GraphQLApi.GraphQLObjects.Services;
 

@@ -3,7 +3,7 @@ using GraphQLApi.GraphQLObjects.Clients;
 
 namespace GraphQLApi.GraphQLObjects.Services;
 
-public class PayerService 
+public class PayerService
 {
     private readonly IPayer _payer;
 
